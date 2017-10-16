@@ -1,0 +1,10 @@
+{application,gossip_simulator,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"gossip_simulator"},
+              {modules,['Elixir.Concurrency','Elixir.GossipSimulator',
+                        'Elixir.GossipSimulator.Module.Node',
+                        'Elixir.GossipSimulator.Module.Supervisor',
+                        'Elixir.Stack']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]}]}.
